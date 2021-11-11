@@ -1,10 +1,10 @@
 .bg-img{
-    background: url('../../assets/img/fondo.png');
+    background: url('../../assets/img/fondo3.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
 
     button{ margin: 40px }
 }
