@@ -14,7 +14,7 @@ const Header = () => {
                         Desarrolla todo
                         <span>tu POTENCIAL</span>
                         dentro del equipo
-                        <span className="__line">ATOMIC</span> LABS
+                        <span className="__line">ATOMIC</span>LABS
                     </div>
                     <NavLink to="/form">
                         <button className="btn btn-primary">Quiero ser parte!</button>

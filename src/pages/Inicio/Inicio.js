@@ -1,4 +1,4 @@
-import { Nav, Header, Content } from '../../components'
+import { Nav, Header, Content,Footer } from '../../components'
 import './Inicio.scss'
 
 const Inicio = () => {
@@ -10,6 +10,8 @@ const Inicio = () => {
       <Header />
       {/* Contenido de la pagina de Inicio */}
       <Content/>
+      {/* Pie de pagina */}
+      <Footer/>
     </div>
   )
 }
