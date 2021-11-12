@@ -10,10 +10,10 @@ const Footer = () => {
                 <p className="float-end mb-1">
                     <a href="#" className="text-white">Aviso de privacidad</a>
                     <a href="https://www.linkedin.com/company/atomic-mexico/?originalSubdomain=mx">
-                        <img src={linkedin} alt="" srcset="" />
+                        <img src={linkedin} alt="" />
                     </a>
                     <a href="https://twitter.com/atomicmexico">
-                        <img src={twitter} alt="" srcset=""/>
+                        <img src={twitter} alt=""/>
                     </a>
                 </p>
                 <p className="mb-1 text-white">&copy; 2020 AtomicLabs. Todos los derechos reservados.</p>
