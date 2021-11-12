@@ -25,7 +25,7 @@ const ContentFormCelular = () => {
             num: '',
         },
         validationSchema: Yup.object({
-            num: Yup.number().min(10, 'El numero es requerido').required('Este campo es requerido'),
+            num: Yup.number(10).min(10, 'El numero es requerido').required('Este campo es requerido'),
         }),
         onSubmit: values => {
             try {
@@ -81,8 +81,8 @@ const ContentFormCelular = () => {
                             
                         </div>
                         {
-                            formik.touched.name && formik.errors.name ? (
-                                <p className="__error">{formik.errors.name}</p>
+                            formik.touched.num && formik.errors.num ? (
+                                <p className="__error">{formik.errors.num}</p>
                             ) : null
                         }
                         {
